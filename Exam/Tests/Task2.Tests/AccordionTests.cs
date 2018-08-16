@@ -1,4 +1,4 @@
-﻿using Exam.Pages.AccordionPage;
+using Exam.Pages.AccordionPage;
 using Exam.Pages.DemoQaPage;
 using Exam.Utilities;
 using NUnit.Framework;
@@ -21,7 +21,7 @@ namespace Exam.Tests.Task2.Tests
             demoQaMainPage.Load();
             demoQaMainPage.OpenAccordionSection();
             accordionPage.OpenCustomizeIconsSubSection();
-        }
+        } 
 
         [Test]
         [Property("Task2", 1)]
